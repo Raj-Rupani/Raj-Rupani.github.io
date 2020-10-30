@@ -1,0 +1,119 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Product Sans";   
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#bag{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#bg{
+    height: 100%;
+}
+#ass{
+    position: absolute;
+    top: 18%;
+    left: 45%;
+}
+
+#overlay{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+nav{
+    width: 100%;
+    height: 120px;
+    color: white;
+    padding: 0 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+nav #left{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav #left h4{
+    margin-right: 120px;
+    font-size: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-left: 100px;
+    font-weight: 550;
+    letter-spacing: 5px;
+}
+
+nav #right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+nav i{
+    color: black;
+    font-size: 30px;
+    opacity: .4;
+    margin-right: 30px;
+}
+#right button{
+    border: none;
+    background-color: #E17857;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px 25px;
+    
+
+}
+#con{
+    position: absolute;
+    width: 700px;
+    height: 350px;
+    top:28%;
+    left: 110px;
+    /* background-color: #E17857; */
+
+}
+#con h1{
+    font-size: 45px;
+    color: white;
+}
+#con p{
+    width: 70%;
+    padding: 18px 0px;
+    color: white;
+    font-size: 15px;
+    opacity: .8;
+}
+#con button{
+    margin-top: 15px;
+    letter-spacing: 3px;
+    padding: 10px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 28%;
+    height: 45px;
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.363);
+    background-color:  #70C8CB;
+    color: white;
+    font-weight: 700;
+}
